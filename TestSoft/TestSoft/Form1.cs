@@ -15,6 +15,7 @@ namespace TestSoft
 {
     public partial class Form1 : Form
     {
+        WebClient client = new WebClient();
         public Form1()
         {
             InitializeComponent();
@@ -22,7 +23,7 @@ namespace TestSoft
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            if (client.DownloadFile)
         }
     }
 }
