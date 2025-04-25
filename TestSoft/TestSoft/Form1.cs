@@ -22,9 +22,9 @@ namespace TestSoft
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string localVersion = "1.1"; // Текущая версия программы
-            string versionUrl = "https://raw.githubusercontent.com/Kharkov21ua/TestSoft/main/Update.txt";
-            string updateUrl = "https://raw.githubusercontent.com/Kharkov21ua/TestSoft/main/ProgramNew.exe"; // Ссылка на новый exe
+            string localVersion = "1.2"; // Текущая версия программы
+            string versionUrl = "https://github.com/Kharkov21ua/TestSoft/blob/main/TestSoft/TestSoft/bin/Debug/Update.txt";
+            string updateUrl = "https://github.com/Kharkov21ua/TestSoft/blob/main/TestSoft/TestSoft/bin/Debug/TestSoft.exe"; // Ссылка на новый exe
             string newFileName = "ProgramNew.exe";
 
             using (var client = new WebClient())
