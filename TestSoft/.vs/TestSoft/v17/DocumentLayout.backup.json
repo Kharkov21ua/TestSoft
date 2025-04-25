@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\ProjecktCSarp\\TestSoft\\TestSoft\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F94D342-629D-462F-A1BE-B81761E111BF}|TestSoft\\TestSoft.csproj|d:\\projecktcsarp\\testsoft\\testsoft\\testsoft\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F94D342-629D-462F-A1BE-B81761E111BF}|TestSoft\\TestSoft.csproj|D:\\ProjecktCSarp\\TestSoft\\TestSoft\\testsoft\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F94D342-629D-462F-A1BE-B81761E111BF}|TestSoft\\TestSoft.csproj|solutionrelative:testsoft\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F94D342-629D-462F-A1BE-B81761E111BF}|TestSoft\\TestSoft.csproj|D:\\ProjecktCSarp\\TestSoft\\TestSoft\\testsoft\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5F94D342-629D-462F-A1BE-B81761E111BF}|TestSoft\\TestSoft.csproj|d:\\projecktcsarp\\testsoft\\testsoft\\testsoft\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5F94D342-629D-462F-A1BE-B81761E111BF}|TestSoft\\TestSoft.csproj|solutionrelative:testsoft\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "TestSoft\\Form1.cs",
               "ToolTip": "D:\\ProjecktCSarp\\TestSoft\\TestSoft\\TestSoft\\Form1.cs*",
               "RelativeToolTip": "TestSoft\\Form1.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAvwBwAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T21:22:13.516Z",
               "EditorCaption": ""

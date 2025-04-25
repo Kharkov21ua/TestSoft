@@ -26,16 +26,15 @@ namespace TestSoft
             {
                 
 
-                if (client.DownloadString("https://pastebin.com/BAsiyqdE").Contains("1.3"))
+                if (client.DownloadString("https://pastebin.com/G8X1Ve5c").Contains("1.555"))
                 {
                     MessageBox.Show("Новейшая версия", "Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
                     MessageBox.Show("Обновите софт", "Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    client.DownloadFile("https://github.com/Kharkov21ua/TestSoft/blob/main/TestSoft/TestSoft/bin/Debug/TestSoft.exe", "TestSoft.exe");
-                    Application.Exit();
                 }
+                
             }
             
         }
