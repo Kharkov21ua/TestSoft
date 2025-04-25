@@ -1,0 +1,10 @@
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\bin\Debug\TestSoft.exe.config
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\bin\Debug\TestSoft.exe
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\bin\Debug\TestSoft.pdb
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Debug\TestSoft.csproj.AssemblyReference.cache
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Debug\TestSoft.Form1.resources
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Debug\TestSoft.Properties.Resources.resources
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Debug\TestSoft.csproj.GenerateResource.cache
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Debug\TestSoft.csproj.CoreCompileInputs.cache
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Debug\TestSoft.exe
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Debug\TestSoft.pdb
