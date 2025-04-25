@@ -26,7 +26,7 @@ namespace TestSoft
             {
                 
 
-                if (client.DownloadString("https://pastebin.com/G8X1Ve5c").Contains("1.555"))
+                if (client.DownloadString("https://pastebin.com/G8X1Ve5c").Contains("1.3"))
                 {
                     MessageBox.Show("Новейшая версия", "Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
