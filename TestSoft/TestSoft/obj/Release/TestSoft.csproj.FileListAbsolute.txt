@@ -1,0 +1,10 @@
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\bin\Release\TestSoft.exe.config
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\bin\Release\TestSoft.exe
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\bin\Release\TestSoft.pdb
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Release\TestSoft.csproj.AssemblyReference.cache
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Release\TestSoft.Form1.resources
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Release\TestSoft.Properties.Resources.resources
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Release\TestSoft.csproj.GenerateResource.cache
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Release\TestSoft.csproj.CoreCompileInputs.cache
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Release\TestSoft.exe
+D:\ProjecktCSarp\TestSoft\TestSoft\TestSoft\obj\Release\TestSoft.pdb
