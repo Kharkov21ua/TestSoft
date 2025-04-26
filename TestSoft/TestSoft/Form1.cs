@@ -76,7 +76,7 @@ namespace TestSoft
 
                             // Запускаем новое приложение
                             Process.Start(filePath);
-                            Application.Exit();
+                            //Application.Exit();
                         }
                     }
                 }
