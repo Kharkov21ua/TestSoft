@@ -37,17 +37,21 @@ namespace TestSoft
 
         private void btmUpdate_Click(object sender, EventArgs e)
         {
-            string localVersion = "1.7"; // текущая версия твоего софта
-            string url_exe = "https://raw.githubusercontent.com/Kharkov21ua/TestSoft/main/TestSoft/TestSoft/bin/Release/TestSoft.exe";
-            string url_txt = "https://raw.githubusercontent.com/Kharkov21ua/TestSoft/main/TestSoft/TestSoft/bin/Release/Update.txt";
-            string tempUpdateFile = Path.Combine(Path.GetTempPath(), "Update.txt");
-            string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "TestSoft.exe");
+            string localVersion = "1.8"; // текущая версия
+            string url_exe = "https://raw.githubusercontent.com/Kharkov21ua/TestSoft/main/TestSoft/TestSoft/bin/Debug/TestSoft.exe";
+            string url_txt = "https://raw.githubusercontent.com/Kharkov21ua/TestSoft/main/TestSoft/TestSoft/bin/Debug/Update.txt";
+
+            // Текущая папка программы
+            string currentDirectory = Application.StartupPath;
+            string exePath = Path.Combine(currentDirectory, "TestSoft.exe");
+            string txtPath = Path.Combine(currentDirectory, "Update.txt");
+            string tempUpdateFile = Path.Combine(Path.GetTempPath(), "Update.txt"); // временно скачиваем сюда для проверки
 
             using (WebClient client = new WebClient())
             {
                 try
                 {
-                    // Скачиваем файл Update.txt во временную папку
+                    // Скачиваем Update.txt во временную папку
                     client.DownloadFile(url_txt, tempUpdateFile);
 
                     // Читаем версию с сервера
@@ -59,7 +63,6 @@ namespace TestSoft
                     }
                     else
                     {
-                        // Версия отличается — обновляем
                         DialogResult result = MessageBox.Show(
                             $"Доступна новая версия {serverVersion}. Обновить сейчас?",
                             "Обновление доступно",
@@ -68,15 +71,15 @@ namespace TestSoft
 
                         if (result == DialogResult.Yes)
                         {
-                            // Скачиваем новый exe и новый Update.txt
-                            client.DownloadFile(url_exe, filePath);
-                            client.DownloadFile(url_txt, Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "Update.txt"));
+                            // Скачиваем новые файлы в папку программы
+                            client.DownloadFile(url_exe, exePath);
+                            client.DownloadFile(url_txt, txtPath);
 
                             MessageBox.Show("Обновление успешно установлено! Перезапуск программы...", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                             // Запускаем новое приложение
-                            Process.Start(filePath);
-                            //Application.Exit();
+                            Process.Start(exePath);
+                            Application.Exit();
                         }
                     }
                 }
