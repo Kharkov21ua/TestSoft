@@ -37,15 +37,21 @@ namespace TestSoft
 
         private void btmUpdate_Click(object sender, EventArgs e)
         {
-            // Removed invalid nested class definition  
-            string localVersion = "1.2"; // Текущая версия программы  
-            string versionUrl = "https://github.com/Kharkov21ua/TestSoft/blob/main/TestSoft/TestSoft/bin/Debug/Update.txt"; // Где лежит версия на сервере  
+            string localVersion = "1.3"; // текущая версия твоего софта
+            string url_exe = "https://raw.githubusercontent.com/Kharkov21ua/TestSoft/main/TestSoft/TestSoft/bin/Debug/TestSoft.exe";
+            string url_txt = "https://raw.githubusercontent.com/Kharkov21ua/TestSoft/main/TestSoft/TestSoft/bin/Debug/Update.txt";
+            string tempUpdateFile = Path.Combine(Path.GetTempPath(), "Update.txt");
+            string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "TestSoft.exe");
 
-            using (var client = new WebClient())
+            using (WebClient client = new WebClient())
             {
                 try
                 {
-                    string serverVersion = client.DownloadString(versionUrl).Trim();
+                    // Скачиваем файл Update.txt во временную папку
+                    client.DownloadFile(url_txt, tempUpdateFile);
+
+                    // Читаем версию с сервера
+                    string serverVersion = File.ReadAllText(tempUpdateFile).Trim();
 
                     if (serverVersion == localVersion)
                     {
@@ -53,30 +59,32 @@ namespace TestSoft
                     }
                     else
                     {
+                        // Версия отличается — обновляем
                         DialogResult result = MessageBox.Show(
-                            $"Доступна новая версия {serverVersion}. Хотите обновить?",
-                            "Обновление",
+                            $"Доступна новая версия {serverVersion}. Обновить сейчас?",
+                            "Обновление доступно",
                             MessageBoxButtons.YesNo,
                             MessageBoxIcon.Question);
 
                         if (result == DialogResult.Yes)
                         {
-                            // Здесь можно вызвать процесс обновления  
-                            StartUpdateProcess();
+                            // Скачиваем новый exe и новый Update.txt
+                            client.DownloadFile(url_exe, filePath);
+                            client.DownloadFile(url_txt, Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "Update.txt"));
+
+                            MessageBox.Show("Обновление успешно установлено! Перезапуск программы...", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            // Запускаем новое приложение
+                            Process.Start(filePath);
+                            Application.Exit();
                         }
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Ошибка проверки обновления: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Ошибка обновления: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-        }
-
-        private void StartUpdateProcess()
-        {
-            // Здесь будет код для скачивания новой версии  
-            MessageBox.Show("Запускаем обновление!", "Обновление", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
     }
