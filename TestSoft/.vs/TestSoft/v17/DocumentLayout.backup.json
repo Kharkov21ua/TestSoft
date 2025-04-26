@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{5F94D342-629D-462F-A1BE-B81761E111BF}|TestSoft\\TestSoft.csproj|solutionrelative:testsoft\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5F94D342-629D-462F-A1BE-B81761E111BF}|TestSoft\\TestSoft.csproj|d:\\projecktcsarp\\testsoft\\testsoft\\testsoft\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F94D342-629D-462F-A1BE-B81761E111BF}|TestSoft\\TestSoft.csproj|solutionrelative:testsoft\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F94D342-629D-462F-A1BE-B81761E111BF}|TestSoft\\TestSoft.csproj|D:\\ProjecktCSarp\\TestSoft\\TestSoft\\testsoft\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5F94D342-629D-462F-A1BE-B81761E111BF}|TestSoft\\TestSoft.csproj|solutionrelative:testsoft\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -18,31 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\ProjecktCSarp\\TestSoft\\TestSoft\\TestSoft\\MainForm.cs",
+              "RelativeDocumentMoniker": "TestSoft\\MainForm.cs",
+              "ToolTip": "D:\\ProjecktCSarp\\TestSoft\\TestSoft\\TestSoft\\MainForm.cs",
+              "RelativeToolTip": "TestSoft\\MainForm.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T13:26:57.862Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\ProjecktCSarp\\TestSoft\\TestSoft\\TestSoft\\Form1.cs",
               "RelativeDocumentMoniker": "TestSoft\\Form1.cs",
-              "ToolTip": "D:\\ProjecktCSarp\\TestSoft\\TestSoft\\TestSoft\\Form1.cs*",
-              "RelativeToolTip": "TestSoft\\Form1.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAvwBwAAABYAAAAAAAAAA==",
+              "ToolTip": "D:\\ProjecktCSarp\\TestSoft\\TestSoft\\TestSoft\\Form1.cs",
+              "RelativeToolTip": "TestSoft\\Form1.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T21:22:13.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\ProjecktCSarp\\TestSoft\\TestSoft\\TestSoft\\Form1.cs",
               "RelativeDocumentMoniker": "TestSoft\\Form1.cs",
               "ToolTip": "D:\\ProjecktCSarp\\TestSoft\\TestSoft\\TestSoft\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "TestSoft\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T21:17:50.999Z"
+              "WhenOpened": "2025-04-25T21:17:50.999Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]
         }
