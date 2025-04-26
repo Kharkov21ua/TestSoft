@@ -33,6 +33,7 @@
             this.btmUpdate = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -81,16 +82,27 @@
             this.button4.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.button4.Location = new System.Drawing.Point(250, 264);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(246, 157);
+            this.button4.Size = new System.Drawing.Size(127, 157);
             this.button4.TabIndex = 4;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button5.Location = new System.Drawing.Point(450, 209);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(127, 157);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(758, 451);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btmUpdate);
@@ -110,6 +122,7 @@
         private System.Windows.Forms.Button btmUpdate;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
 

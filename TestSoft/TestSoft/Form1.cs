@@ -37,7 +37,7 @@ namespace TestSoft
 
         private void btmUpdate_Click(object sender, EventArgs e)
         {
-            string localVersion = "1.5"; // текущая версия твоего софта
+            string localVersion = "1.6"; // текущая версия твоего софта
             string url_exe = "https://raw.githubusercontent.com/Kharkov21ua/TestSoft/main/TestSoft/TestSoft/bin/Release/TestSoft.exe";
             string url_txt = "https://raw.githubusercontent.com/Kharkov21ua/TestSoft/main/TestSoft/TestSoft/bin/Release/Update.txt";
             string tempUpdateFile = Path.Combine(Path.GetTempPath(), "Update.txt");
